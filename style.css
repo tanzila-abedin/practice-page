@@ -1,0 +1,155 @@
+#main-doc {
+    font-weight:300;
+    position: fixed;
+    width: 100%;
+    height:39px;
+    background:#5ac54c;
+    padding-bottom: 10px;
+    padding-top:1px;
+  }
+
+  .main-section {
+    top: 0;
+    margin-left: 170px;
+    min-height: 100vh;
+    border-bottom: solid 1px silver;
+    background: radial-gradient(rgb(236, 236, 236))
+  }
+  
+  #navbar {
+    top: 0;
+    background: whitesmoke;
+    box-shadow: #6b6a6a;
+    position: fixed;
+    width: 270px;
+    height: 100vh;
+  }
+
+
+header {
+    text-align: center;
+    padding: 60px 0px 0px 0px;
+    font-weight: bold;
+    font-size: 20px;
+    color:#4b4949;
+  }
+
+  p {
+    width: 80%;
+    display: block;
+    margin: 30px auto;
+    text-align: justify;
+    color:pink;
+  }
+  code {
+    width: 85%;
+    display: block;
+    margin: 30px auto;
+    background:#9e7373;
+    padding: 20px 10px;
+    border-radius: 5px;
+    color:pink;
+  }
+  ul {
+    margin: 0 auto;
+    display: block;
+    width: 300px;
+    padding-bottom: 50px;
+  }
+  ul li {
+    width: 300px;
+    border-bottom: 1px solid #ffccd7;
+    padding: 10px 0px;
+  }
+  #a-parent {
+    padding-top: 39px;
+  }
+  a:visited {
+    color: #f9c3d5;
+    background:#a8727b;
+  }
+  a:hover {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+  }
+  a:after {
+    content: "";
+    display: block;
+    height: 0;
+    width: 1px;
+  }
+  a {
+    border-bottom: 1px solid #82656a;
+    color:pink;
+  }
+  
+  /*scroll bar property*/
+  /* width */
+  ::-webkit-scrollbar {
+   width: 10px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+   background:#9e7373; 
+  } 
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+  background:#543636;
+    background-size:50px;
+  }
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+  background:#17a2b8; 
+  }
+  @media only screen and (min-width: 970px) {
+    p {
+      width: 515px;
+    }
+  }
+  @media only screen and (min-width: 950px) {
+    code {
+      width: 600px;
+    }
+  }
+  @media only screen and (max-width: 630px) {
+    #navbar {
+      position: fixed;
+      width: 100%;
+      height: 150px;
+      overflow: scroll;
+      overflow-x: hidden;
+      top: 0;
+      border-bottom: 2px solid #8d6969;
+    }
+    .main-section {
+      overflow: hidden;
+      margin-right: 0px;
+      margin-left: 0px;
+      min-height: 100vh;
+      border-bottom: solid 1px #8d6969;
+    }
+    #main-h {
+      position: fixed;
+      width: 100%;
+      color: #ffe9f0;
+      background: #8d6969;
+      padding-bottom: 10px;
+      padding-top: 5px;
+    }
+    ul {
+      margin: 20px;
+      display: block;
+      width: 300px;
+      padding-bottom: 50px;
+    }
+    header {
+      text-align: center;
+      padding: 160px 0px 0px 0px;
+    }
+    code {
+      width: 90%;
+    }
+  }
+  
+  
